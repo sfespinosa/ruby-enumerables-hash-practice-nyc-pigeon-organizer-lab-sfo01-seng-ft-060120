@@ -28,8 +28,8 @@ def nyc_pigeon_organizer(data)
         if pigeon_list[name][key1] == nil 
           pigeon_list[name][key1] = []
         end 
+        pigeon_list[name][key1].push(detail.to_s)
       end
-      ff
     end 
   end 
   pigeon_list
